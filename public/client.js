@@ -1,7 +1,3 @@
-console.log('File added')
-
-
-
 const weatherForm= document.querySelector('form')  //converts html element into js representation of the same for manipulation
 const search= document.querySelector('input')
 const msg1=document.querySelector('#msg1')
