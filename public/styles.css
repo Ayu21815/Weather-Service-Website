@@ -1,0 +1,100 @@
+body{
+    color: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;  /*using flexbox allows all body elements to take upr the entire space of browser leaving only footer space*/ 
+    flex-direction: column; /*displays everything top to bottom*/
+    min-height: 100vh; /*100% of viewport height*/
+    background-image: url("/img/weatherimg.jpg");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin: 14px;
+}
+footer{
+    color: white;
+    font-size: 20px;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+header{
+    margin: 16px 0;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+header a{
+    color: #0e0e92;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 4px;
+    text-decoration: none;
+    width: 100%;
+}
+.main-content{
+    flex-grow: 1;
+}
+input{
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 8px;
+    margin: 5px;
+}
+button{
+    font-size: 15px;
+    cursor: pointer;
+    background: #12128b;
+    color: white;
+    margin: 5px 8px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+div p{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 16px;
+}
+.box{
+    background-color: greenyellow;
+    text-align: left;
+    padding: 16px;
+    margin: 20px;
+}
+form{
+    display:flex;
+}
+.links{
+    display:flex;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.helpbox{
+    padding: 15px;
+    margin: 16px;
+}
+textarea{
+    margin: 20px;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+#msg1,#msg2{
+    color: white;
+    font-size: 24px;
+    font-weight: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
