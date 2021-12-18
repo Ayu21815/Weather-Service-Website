@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About Us</title>
+        <title>About</title>
         <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="icon.png">
+        <link rel="icon" href="/img/icon.png">
     </head>
     <body>
         <div class="main-content">
             {{>header}}
             <img src="/img/mainpage.png">
-            <p>Get the weather forecast at just one click!</p>
+            <p>This weather service has been built using Mapbox and Weatherbit API! 
+                A Nodejs Server is created using Express.js which allows users to interact with the application via an URL in a browser; 
+                Express.js is also used to serve webpages, styles, and scripts. Handlebars templating engine has been used to render dynamic views. Finally, a connection is being set up between the client and the server using an HTTP request.</p>
         </div>    
         {{>footer}}
     </body>
