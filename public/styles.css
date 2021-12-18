@@ -63,6 +63,7 @@ div p{
     font-size: 26px;
     margin: 10px;
     color: black;
+    text-align: justify;
 }
 .box{
     background-color: greenyellow;
